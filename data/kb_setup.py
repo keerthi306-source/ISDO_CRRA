@@ -12,6 +12,8 @@ import chromadb
 from pathlib import Path
 
 KB_DIR = Path(__file__).parent / "kb"
+# Saved to disk so the Lab C3 agent can query it after this script exits
+CHROMA_PATH = Path(__file__).parent / "chroma_db"
 COLLECTION_NAME = "crra_policy"
 
 
@@ -56,7 +58,7 @@ def chunk_article(text: str, filename: str) -> list[dict]:
 
 
 def main() -> None:
-    client = chromadb.Client()
+    client = chromadb.PersistentClient(path=str(CHROMA_PATH))
 
     # Start clean so re-running the script does not stack duplicate chunks
     try:
