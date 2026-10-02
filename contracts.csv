@@ -1,0 +1,16 @@
+contract_id,vendor,category,business_unit,owner,annual_value_inr,renewal_date,notice_days,auto_renew,seats_purchased,seats_active,proposed_uplift_pct,status
+CTR-1001,Atlassian Jira,Ticketing,Engineering,R. Deshpande,1200000,2025-05-15,60,Y,500,470,6,Active
+CTR-1002,Slack Enterprise,Collaboration,Engineering,R. Deshpande,800000,2025-06-30,30,Y,300,96,9,Active
+CTR-1003,Microsoft 365 E5,Collaboration,Corporate,A. Iyer,4500000,2025-09-01,90,N,1200,1140,4,Active
+CTR-1004,Datadog Pro,Observability,Platform Ops,S. Nambiar,6200000,2025-05-20,90,N,400,352,18,Active
+CTR-1005,New Relic One,Observability,Platform Ops,S. Nambiar,1500000,2025-07-10,90,Y,210,61,7,Active
+CTR-1006,Lucidchart Team,Design,UNASSIGNED,UNASSIGNED,240000,2025-06-05,30,Y,120,17,5,Active
+CTR-1007,GitHub Enterprise,Developer Tools,Engineering,R. Deshpande,3100000,2025-08-22,60,N,900,861,5,Active
+CTR-1008,Oracle DB AMC,Database,Platform Ops,S. Nambiar,7800000,2025-10-15,90,N,0,0,12,Active
+CTR-1009,Zoom Business,Collaboration,Corporate,A. Iyer,950000,2025-05-08,45,Y,600,214,11,Active
+CTR-1010,Figma Organization,Design,Digital Studio,M. Kulkarni,680000,2025-11-30,30,N,150,138,3,Active
+CTR-1011,Confluence Cloud,Ticketing,Engineering,R. Deshpande,540000,2025-05-15,60,Y,500,205,6,Active
+CTR-1012,PagerDuty Business,Observability,Platform Ops,S. Nambiar,1150000,2025-04-28,30,Y,120,109,22,Active
+CTR-1013,Smartsheet Advance,Workflow,BizOps,P. Chandra,420000,2025-12-10,60,N,80,22,8,Active
+CTR-1014,AWS Enterprise Support,Cloud,Platform Ops,S. Nambiar,9500000,2025-07-01,60,N,0,0,7,Active
+CTR-1015,Miro Consultant Plan,Design,Digital Studio,M. Kulkarni,310000,2025-06-18,30,Y,200,31,6,Active
