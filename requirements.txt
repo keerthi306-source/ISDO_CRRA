@@ -3,3 +3,4 @@ flask
 anthropic
 requests
 python-dotenv
+langgraph
